@@ -29,8 +29,8 @@
 <body>
     <section class="container-flex">
         <!-- section navbar -->
-        <section class="container-fluid">
-            <header>
+        <header>
+          <section class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light bg">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#"><img src="" alt="Blog"></a>
@@ -43,7 +43,7 @@
                             <a class="nav-link active" aria-current="page" href="quemSomos.html">Quem somos</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="acessar.html">Acessar</a>
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Acessar</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="cadastrar.html">Cadastrar</a>
@@ -52,6 +52,33 @@
                       </div>
                     </div>
                   </nav>
+        </section>
+        <!-- section modal -->
+        <section>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <input type="email" required class="form-control" id="recipient-name" placeholder="Digite seu email">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" required name="password" class="form-control" id="password" placeholder="Digite sua senha.">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-success">Entrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- section slide -->
         <section class="container-fluid">
