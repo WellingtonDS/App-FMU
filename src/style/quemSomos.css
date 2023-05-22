@@ -1,0 +1,26 @@
+.mg-2 {
+    margin: 2rem;
+}
+
+.card {
+    margin: 0 auto;
+    width: 18rem;
+    border: none !important;
+}
+
+.mg-2 {
+    margin: 2rem;
+}
+
+.card-img-top {
+    border-radius: 16px !important;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
