@@ -79,14 +79,20 @@ p {
 }
 
 /* estilização footer */
-.bg-g {
-    height: 250px;
-    background-color: gray;
+footer {
+    background-color: gray;;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    top: 75px;
 }
 
 span {
-    width: 50%;
+    width: 100%;
     text-align: center;
+    font-size: 16px;
 }
 
 .icons {
@@ -116,5 +122,5 @@ li {
 .grid {
     display: flex;
     justify-content: center;
-    margin: 1rem;
+    margin: 2rem auto;
 }
